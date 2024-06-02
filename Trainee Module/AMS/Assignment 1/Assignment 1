@@ -1,0 +1,12 @@
+Examining the schematic, we notice a voltage divider circuit. The VBATM pin is connected to HV-, while the VBATP pin is connected between two resistors that bridge HV+ and HV-. This configuration is chosen due to the IC's voltage ratings.
+
+Input voltage reading of VBATM
+Input voltage reading of VBATP
+
+VMax = 378 V
+R14 = 30 * 10^3
+R17 = 6.5 * 10^6
+
+V14 = VBATP - VBATM
+
+Voltage across the accumulator =  (V14 * R17)/(R14) + V14
